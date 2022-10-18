@@ -1,0 +1,32 @@
+.tarjeta__title {
+    background-position: center;
+    background-size: cover;
+    height: 5vh;
+  }
+  .tarjeta {
+    border: 10px solid white;
+    width: 320px;
+    height: 380px;
+    border-radius: 50px;
+    border-style: double;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .tarjeta__img {
+    max-width: 380px;
+    max-height: 310px;
+    padding: 2px;
+  }
+  .tarjeta__wsp {
+    max-width: 80px;
+    max-height: 80px;
+    z-index: 1;
+  }
+  
+  .tarjeta__ig {
+    max-width: 45px;
+    max-height: 45px;
+  }

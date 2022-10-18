@@ -1,0 +1,17 @@
+.portada {
+    background-image: url(../imagenes/madre\ mia\ imagenes.jpeg);
+    height: 95vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .portada__texto {
+    text-align: center;
+    font-size: 2rem;
+    background-color: rgba(255, 192, 203, 0.735);
+    padding: 15px;
+    border-radius: 20px;
+  }

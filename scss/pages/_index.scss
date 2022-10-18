@@ -1,14 +1,5 @@
-@import "pages/index";
-@import "components/botones";
-@import "layout/header";
-@import "base/reset";
-@import "components/tarjetas";
-@import "layout/footer";
-@import "pages/contactos";
-@import "pages/nosotros";
-@import "utils/mapa";
-
-*{
+*
+ {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -121,73 +112,3 @@
     max-height: 45px;
   }
   
-  body {
-    background-color: pink;
-  }
-  
-  ul {
-    font-size: 30px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }
-  
-  p {
-    font-size: 25px;
-  }
-  
-  .nosotros {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .nosotros_texto {
-    color: black;
-    font-size: 30px;
-  }
-  
-  .mapita {
-    max-width: 100%;
-  }
-  
-  .navbar {
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  @media screen and (max-width: 450px) {
-    .nosotros {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .nosotrostexto {
-      color: black;
-      font-size: 20px;
-      text-align: center;
-    }
-  
-    .navbar {
-      font-size: 15px;
-    }
-  
-    header h1 {
-      font-size: 19px;
-    }
-  }
-  
-  @media screen and (max-width: 850px) {
-    header {
-      display: flex;
-      justify-content: space-around;
-    }
-  }
-  
-  @media screen and (max-width: 700px) {
-    .navbar {
-      font-size: 20px;
-    }
-  
-    header h1 {
-      font-size: 25px;
-    }
-  }
