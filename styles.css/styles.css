@@ -62,7 +62,7 @@
     
     .productos__title{
     
-        background-color: white;
+        background-color: pink;
         padding: 15px;
         text-align: center;
         font-size: 2rem;
@@ -73,7 +73,7 @@
     .tarjeta__title{
         background-position:center;
         background-size: cover;
-        height: 5vh;
+        height: 10vh;
        
     
     
@@ -81,12 +81,12 @@
     
     
     .tarjeta{
-        border: 10px solid white;
+        border: 10px solid pink;
         width: 320px;
         height: 380px;
-    border-radius: 50px;
-    border-style: double;
-    padding: 5px;
+    border-radius: 20px;
+    border-style:ridge;
+    padding: 2px;
     justify-content:space-between;
     align-items: center;
     display: flex;
@@ -100,7 +100,7 @@
     .botoncito{
         border: 2px solid white;
         border-radius: 15px;
-        padding: 10px 15px;
+        padding: 10px 20px;
     background-color: pink;
     color: black;
     
@@ -113,9 +113,9 @@
         color: pink;
     }
     .tarjeta__img{
-        max-width: 380px;
-        max-height: 310px;
-        padding: 2px;
+        max-width: 325px;
+        max-height: 255px;
+        padding: 5px;
          
        
     }

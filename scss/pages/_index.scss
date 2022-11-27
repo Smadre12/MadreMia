@@ -62,12 +62,12 @@
   }
   
   .tarjeta {
-    border: 10px solid white;
+    border: 10px solid pink;
     width: 320px;
     height: 380px;
     border-radius: 50px;
     border-style: double;
-    padding: 5px;
+    padding: 20px;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -91,7 +91,7 @@
   .tarjeta__img {
     max-width: 380px;
     max-height: 310px;
-    padding: 2px;
+    padding: 20px;
   }
   
   .slider {
